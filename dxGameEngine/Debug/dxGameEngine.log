@@ -1,0 +1,38 @@
+﻿Build started 2015-02-22 16:44:40.
+     1>Project "C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\dxGameEngine\dxGameEngine.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AsteroidFields.vcxproj, GameEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dsutil.cpp dxAudio.cpp dxGraphics.cpp dxImage.cpp dxInput.cpp dxSprite.cpp dxText.cpp Engine.cpp Main.cpp
+         Main.cpp
+         c:\program files\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Engine.cpp
+         c:\program files\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         dxText.cpp
+         dxSprite.cpp
+         dxInput.cpp
+         c:\program files\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         dxImage.cpp
+         dxGraphics.cpp
+     1>c:\users\undeadamilo\documents\visual studio 2013\projects\dxgameengine\dxgameengine\dxgraphics.cpp(69): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\undeadamilo\documents\visual studio 2013\projects\dxgameengine\dxgameengine\dxgraphics.cpp(93): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\undeadamilo\documents\visual studio 2013\projects\dxgameengine\dxgameengine\dxgraphics.cpp(94): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\undeadamilo\documents\visual studio 2013\projects\dxgameengine\dxgameengine\dxgraphics.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+         dxAudio.cpp
+         dsutil.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\Debug\dxGameEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\sp2D3DWrapper\Stuff\32" dinput8.lib d3d9.lib d3dx9.lib dsound.lib dxguid.lib DxErr.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\Debug\dxGameEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\Debug\dxGameEngine.lib" /MACHINE:X86 Debug\dsutil.obj
+         Debug\dxAudio.obj
+         Debug\dxGraphics.obj
+         Debug\dxImage.obj
+         Debug\dxInput.obj
+         Debug\dxSprite.obj
+         Debug\dxText.obj
+         Debug\Engine.obj
+         Debug\Main.obj
+         dxGameEngine.vcxproj -> C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\Debug\dxGameEngine.exe
+     1>Done Building Project "C:\Users\UndeadAmilo\Documents\Visual Studio 2013\Projects\dxGameEngine\dxGameEngine\dxGameEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.30
